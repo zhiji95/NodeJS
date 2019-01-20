@@ -35,7 +35,7 @@ npm install -g nodemon
 ### 2. install [MongoDB](https://docs.mongodb.com/v3.2/tutorial/install-mongodb-on-windows/) ###
 ```
 brew install mongodb
-chomd ugo+rwx /data/db
+chmod ugo+rwx /data/db
 (killall mongod)
 mongod
 ```
