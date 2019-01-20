@@ -1,4 +1,4 @@
-# NodeJS
+# NodeJS #
 And node js server with instruction of postman and npm
 [Readme Doc](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
@@ -25,3 +25,18 @@ npm install -g nodemon
 ## Postman ##
 
 ![alt text](postman.png)
+
+## MongoDB ##
+### 1. install [homebrew](https://brew.sh) ###
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+### 2. install [MongoDB](https://docs.mongodb.com/v3.2/tutorial/install-mongodb-on-windows/) ###
+```
+brew install mongodb
+chomd ugo+rwx /data/db
+(killall mongod)
+mongod
+```
+
